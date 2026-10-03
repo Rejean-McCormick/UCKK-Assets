@@ -1,0 +1,9 @@
+# UCKK Assets - SmartSnap ignore
+# Fichiers qui peuvent rester versionnés dans Git,
+# mais qui ne sont pas utiles dans un snapshot de code/contexte.
+
+.smartignore
+
+# Gros binaires Office : conservés dans Git, exclus du snapshot.
+*.pptx
+*.docx

@@ -1,1 +1,34 @@
+# UCKK Assets - Git ignore
+# Fichiers qui ne doivent pas être versionnés.
+
+# Sources graphiques locales / lourdes non suivies
 *.psd
+
+# Outils locaux
+/GitSink.bat
+/SmartSnap.pyw
+
+# Raccourcis et bruit OS
+*.lnk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers temporaires / sauvegardes locales
+~$*
+*~
+*.bak
+*.bak_*
+*.bak-*
+*.bak.*
+*.backup
+*.orig
+*.rej
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Python local
+__pycache__/
+*.py[cod]
